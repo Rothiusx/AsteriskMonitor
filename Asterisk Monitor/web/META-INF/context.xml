@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/asterisk">
+    <Resource
+        name="jdbc/asterisk"
+        auth="Container"
+        driverClassName="com.mysql.jdbc.Driver"
+        logAbandoned="true"
+        maxActive="100"
+        maxIdle="30"
+        maxWait="10000"
+        password="asterisk"
+        type="javax.sql.DataSource"
+        url="jdbc:mysql://192.168.1.34:3306/asterisk?serverTimezone=Europe/Prague"
+        username="asterisk" />
+</Context>
